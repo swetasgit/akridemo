@@ -36,7 +36,7 @@ helm:
         enabled=true 
         name=akri-udev-video 
         discoveryDetails:
-          udevRules[0]='KERNEL=="video0"
+          udevRules[0]='KERNEL=="video0"'
         brokerPod:
           image:
             repository="ghcr.io/project-akri/akri/udev-video-broker" 
